@@ -1,10 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
 }
+header {
+    height: 80px;
+    background-color: #4D4D4D;
+    display: flex;
+    align-items: center;
+}
 .btn-cart {
     height: 30px;
     width: 120px;
+    margin-left: 15px;
 }
 .products {
     display: flex;
@@ -16,5 +29,12 @@ body {
     border: solid black;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    margin-left: 15px;
+
+}
+.buy-btn {
+    height: 30px;
+    width: 120px;
 }
