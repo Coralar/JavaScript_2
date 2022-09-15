@@ -10,7 +10,7 @@ const renderProduct = (item, img= 'https://via.placeholder.com/150') => {
     return `<div class="product-item">
                 <img src='${img}'>
                 <h3>${item.title}</h3>
-                <p>${item.price}</p>x
+                <p>${item.price}</p>
                 <button class="buy-btn">Купить</button>
             </div>`
 };
